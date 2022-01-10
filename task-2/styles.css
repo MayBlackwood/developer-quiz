@@ -1,0 +1,121 @@
+body,
+input[name='dateOfBirth'] {
+  font-family: 'Arial Narrow', sans-serif;
+  letter-spacing: 0.5px;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+}
+
+.form {
+  height: auto;
+  width: 474px;
+  padding: 17px 26px;
+  background-color: #1a84db;
+  overflow: hidden;
+}
+
+.form-row {
+  margin-bottom: 23px;
+}
+
+.form-row:last-child {
+  margin-bottom: 0;
+}
+
+.label {
+  margin: 0px;
+  color: #ffffff;
+  font-style: italic;
+  font-size: 18px;
+}
+
+input,
+textarea {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  background-color: #1a84db;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+input {
+  height: 44px;
+  margin: 8px 0;
+  padding: 0 10px;
+}
+
+textarea {
+  height: 160px;
+  resize: vertical;
+  margin: 8px 0 0;
+  padding: 10px;
+  font-family: 'Arial Narrow', sans-serif;
+  letter-spacing: 0.5px;
+  font-size: 18px;
+}
+
+textarea::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 18px;
+  font-style: italic;
+}
+
+.two-columns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 28px;
+}
+
+input[name='country'] {
+  width: 260px;
+}
+
+input[type='date'] {
+  position: relative;
+}
+
+input[type='date']:before {
+  padding: 0 5px;
+  margin-right: 5px;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: '\f073';
+  color: #ffffff;
+}
+
+input[type='date']:hover:after {
+  color: #bf1400;
+}
+
+input[type='date']::-webkit-calendar-picker-indicator {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: auto;
+  height: auto;
+  color: transparent;
+  background: transparent;
+}
+
+input[type='date']::-webkit-inner-spin-button {
+  z-index: 1;
+}
+
+input[type='date']::-webkit-clear-button {
+  z-index: 1;
+}
+
+input[name='dateOfBirth'] {
+  width: 195px;
+  font-size: 18px;
+}
