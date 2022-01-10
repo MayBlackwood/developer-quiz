@@ -1,5 +1,5 @@
-// remove all setState because in my opinion there is no reason to return userIDm tenantsID 
-//or accessToken -> with this hook we anyway redirect user to another page and can access needed data from local storage
+// remove all setState because in my opinion there is no reason to return userID, tenantsID 
+// or accessToken => with this hook we anyway redirect user to another page and can access to needed data from local storage
 
 const useAuthProvide = () => {
   const history = useHistory();
