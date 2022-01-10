@@ -1,0 +1,19 @@
+.tableContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.tableItem {
+  margin-bottom: 5px;
+  text-align: left;
+  font-size: 18px;
+}
+
+ul,
+.heading {
+  margin: 0;
+  font-size: 22px;
+}
